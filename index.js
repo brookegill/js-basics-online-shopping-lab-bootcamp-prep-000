@@ -69,7 +69,6 @@ function placeOrder(cardNumber) {
     var itemName = cart[0][itemName];
   }
     removeFromCart(itemName);
-  }
-
+    
   return `Your total cost is $${totalCost}, which will be charged to the card ${cardNumber}.`;
 }
