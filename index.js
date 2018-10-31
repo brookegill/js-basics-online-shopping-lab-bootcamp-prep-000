@@ -63,7 +63,11 @@ function placeOrder(cardNumber) {
   if (cardNumber === undefined) {
     return "Sorry, we don't have a credit card on file for you.";
   }
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> 362a16fe5717cb443f201aac542c9bcd5fd23bad
   var totalCost = total();
   for (var i = 0; cart.length > i; i++) {
     var itemName = cart[i]["itemName"];
